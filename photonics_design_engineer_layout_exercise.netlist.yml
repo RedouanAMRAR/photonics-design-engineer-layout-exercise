@@ -1,0 +1,144 @@
+instances:
+  doe_array_0_m1803863:
+    component: doe_array
+    info:
+      doe: MMI length/width sweep around nominal public design
+      doe_count: 15
+      doe_manifest_csv: doe_variants_manifest.csv
+    settings: {}
+  reference_structure_L300_297370_m245945:
+    component: reference_structure
+    info:
+      measurement: Reference transmission structure
+      wg_length_um: 300
+    settings:
+      length: 300
+  splitter_test_structure_444570_0:
+    component: splitter_test_structure
+    info:
+      measurement: Drive one input; measure both output powers for split ratio. Unused
+        input can be terminated in the experiment if needed.
+    settings: {}
+  text_gdsfactorypcompone_23f7cd26_173770_181250:
+    component: text
+    info: {}
+    settings:
+      justify: left
+      layer: TEXT
+      position:
+      - 0
+      - 0
+      size: 18
+      text: Photonics Design Engineer (Layout) Exercise
+  text_gdsfactorypcompone_5f408e18_354670_m235695:
+    component: text
+    info: {}
+    settings:
+      justify: left
+      layer: TEXT
+      position:
+      - 0
+      - 0
+      size: 9
+      text: Reference straight waveguide
+  text_gdsfactorypcompone_906d4246_264670_m459640:
+    component: text
+    info: {}
+    settings:
+      justify: left
+      layer: TEXT
+      position:
+      - 0
+      - 0
+      size: 7
+      text: 'DOE labels: dL/dW are deltas from nominal; L/W are absolute MMI dimensions'
+  text_gdsfactorypcompone_c1d1d048_321820_11250:
+    component: text
+    info: {}
+    settings:
+      justify: left
+      layer: TEXT
+      position:
+      - 0
+      - 0
+      size: 9
+      text: Nominal 2x2 MMI splitter test structure
+  text_gdsfactorypcompone_d717e5ba_226420_m429640:
+    component: text
+    info: {}
+    settings:
+      justify: left
+      layer: TEXT
+      position:
+      - 0
+      - 0
+      size: 9
+      text: 'DOE: sweep MMI length and width around nominal for 1550 nm targeting'
+name: top_mask
+nets: []
+placements:
+  doe_array_0_m1803863:
+    mirror: false
+    rotation: 0
+    x: 0
+    y: -1803.863
+  reference_structure_L300_297370_m245945:
+    mirror: false
+    rotation: 0
+    x: 297.37
+    y: -245.945
+  splitter_test_structure_444570_0:
+    mirror: false
+    rotation: 0
+    x: 444.57
+    y: 0
+  text_gdsfactorypcompone_23f7cd26_173770_181250:
+    mirror: false
+    rotation: 0
+    x: 173.77
+    y: 181.25
+  text_gdsfactorypcompone_5f408e18_354670_m235695:
+    mirror: false
+    rotation: 0
+    x: 354.67
+    y: -235.695
+  text_gdsfactorypcompone_906d4246_264670_m459640:
+    mirror: false
+    rotation: 0
+    x: 264.67
+    y: -459.64
+  text_gdsfactorypcompone_c1d1d048_321820_11250:
+    mirror: false
+    rotation: 0
+    x: 321.82
+    y: 11.25
+  text_gdsfactorypcompone_d717e5ba_226420_m429640:
+    mirror: false
+    rotation: 0
+    x: 226.42
+    y: -429.64
+ports: {}
+warnings:
+  vertical_te:
+    unconnected_ports:
+    - message: 6 unconnected vertical_te ports!
+      ports:
+      - splitter_test_structure_444570_0,o1
+      - splitter_test_structure_444570_0,o2
+      - splitter_test_structure_444570_0,o3
+      - splitter_test_structure_444570_0,o4
+      - reference_structure_L300_297370_m245945,o1
+      - reference_structure_L300_297370_m245945,o2
+      values:
+      - - 256.87
+        - -82.1
+      - - 383.87
+        - -82.1
+      - - 510.87
+        - -82.1
+      - - 637.87
+        - -82.1
+      - - 383.87
+        - -321.045
+      - - 510.87
+        - -321.045
